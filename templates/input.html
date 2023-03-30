@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML for python flask</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&family=Oswald&display=swap');
+
+
+	
+</style>
+<body>
+	<div style="text-align : center;">
+	<img src="{{ url_for('static', filename='images/ecwall_logo.jpg') }}" width="500" height="500">
+	<form action="/post" method="post">
+	​	<input type="text" id="input" name="input" size="200px">
+		<p class="Oswald">Enter the youtube url and press the submit button. <input type="submit" id = "submit" value="submit" /></p>
+	</form>
+	<div>
+</body>
+</html>
