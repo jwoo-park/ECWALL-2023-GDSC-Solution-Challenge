@@ -1,1 +1,1 @@
-# ECWALL-2023-GDSC-Solution-Challenge-
+# ECWALL-2023-GDSC-Solution-Challenge
