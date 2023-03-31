@@ -2,7 +2,7 @@
 
 **1. Description**
 
-프로젝트에 대한 간단한 설명을 기술한다. 어떠한 일을 수행하기 위한 프로젝트인지, 어떠한 서비스를 위한 것인지를 작성하면 된다. 너무 길게 작성하기 보단 간결하고 명료하게 작성하는 것이 좋다. 프로젝트의 가치를 전달하는 것도 좋다.
+This program was created to raise awareness of discriminatory remarks in YouTube videos. In particular, in the case of young children, if they encounter stimulating information in a state where their values are not properly established, this can have a negative impact. Therefore, as a way to solve this problem, an ECWALL program was created that enables easy visual discrimination of whether a specific sentence contains a discriminatory word.
 
 * * *
 **2. Environment**
@@ -24,10 +24,32 @@ matplotlib, tensorflow, keras : Use command prompt(CMD) with administrator privi
 * * *
 **4. Files**
 - input.html
+
+This is the part that receives user input. It receives the YouTube link and passes it to app.py.
+Next, it receives the .srt subtitle file from app.py and provides it to the user.
 - app.py
+
+After extracting subtitles (text and time information) from the youtube link received from input.html, analyze the text using tensorflow to check whether there is a discrimination element in each sentence. Afterwards, the srt file with the subtitle color changed according to whether there is a discriminatory remark (the subtitle turns red when discriminatory remarks are included) is sent back to input.html.
 - labeled_data.csv
+
+This is a file used when tensorflow is trained, and discriminatory remarks are stored.
 
 * * *
 **5. Usage**
 
-작성한 코드를 어떻게 실행해야 하는지에 대한 가이드라인이다. Usage Example을 함께 작성하면 좋다.
+Users copy the YouTube link they want to watch, paste it on the ECWALL site, and submit it by clicking the submit button. After receiving the srt subtitle file, it is inserted into YouTube using the Google extension program, and discriminatory remarks are checked while observing the color change of the subtitle.
+
+* * *
+**6. Progress and plans**
+- progress
+1. The AI team and the FE team are divided and start developing separately.
+(compiler: AI - Spyder, FE - VSCode)
+(languate: AI - tensorflow, FE - Flask)
+2. After each development was completed, Spyder tried to link it, but failed.
+(Trouble running Flask from spyder)
+3. Integration success in VSCode
+- plans
+1. problem: 
+The current version has changed the color of the subtitles, but there is a problem that you don't know which part contains discriminatory remarks unless you directly play the part where the subtitles appear. 
+2. Solution: 
+We are considering ways to display it directly on the progress bar, like YouTube's timestamp function.
