@@ -43,15 +43,20 @@ Users copy the YouTube link they want to watch, paste it on the ECWALL site, and
 
 * * *
 **6. Progress and plans**
-- progress
+
+progress
 1. The AI team and the FE team are divided and start developing separately.
 (compiler: AI - Spyder, FE - VSCode)
 (languate: AI - tensorflow, FE - Flask)
 2. After each development was completed, Spyder tried to link it, but failed.
 (Trouble running Flask from spyder)
 3. Integration success in VSCode
-- plans
+
+plans
 1. problem: 
-The current version has changed the color of the subtitles, but there is a problem that you don't know which part contains discriminatory remarks unless you directly play the part where the subtitles appear. 
+- The current version has changed the color of the subtitles, but there is a problem that you don't know which part contains discriminatory remarks unless you directly play the part where the subtitles appear. 
+- It only works in the local environment yet.
+
 2. Solution: 
-We are considering ways to display it directly on the progress bar, like YouTube's timestamp function.
+- We are considering ways to display it directly on the progress bar, like YouTube's timestamp function.
+- Proceed with distribution
