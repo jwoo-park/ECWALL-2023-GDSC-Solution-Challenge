@@ -21,6 +21,8 @@ pip install keras
 ```
 matplotlib, tensorflow, keras : Use command prompt(CMD) with administrator privileges
 
+(To start a project, put 'flask run' in your compiler.)
+
 * * *
 **4. Files**
 - input.html
