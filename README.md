@@ -1,10 +1,11 @@
 **0. Participant**
-GDSC GIST
 
-Hee-Jin Seo
-Gabin Kim
-Jaewoo Park
-Suyong Huh
+**GDSC GIST**
+
+1. Hee-Jin Seo
+2. Gabin Kim
+3. Jaewoo Park
+4. Suyong Huh
 
 
 
