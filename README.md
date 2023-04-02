@@ -1,4 +1,14 @@
-# ECWALL-2023-GDSC-Solution-Challenge
+**0. Participant**
+GDSC GIST
+
+Hee-Jin Seo
+Gabin Kim
+Jaewoo Park
+Suyong Huh
+
+
+
+ECWALL-2023-GDSC-Solution-Challenge
 
 **1. Description**
 
